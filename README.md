@@ -13,7 +13,7 @@ The script gets only one parameter at a time - this parameter is the absolute pa
 At the first time you are running this script you will see: "Welcome to the Big Brother". It means that from now and on this folder is under surveillance.
 
 ### Other runs:
-After the first run of the script, on the same folder you chose, the script compares between the current and the previous state of the folder.
+After the first run of the script, it compares between the current and the previous state of the folder.
 It prints all the changes that were apply, for example: deleted files, created files. 
 * If there is a file that was not change, the script will not print anything about it.
 * if a new folder created, you will see: "Folder created: 'FolderName'".
